@@ -1,0 +1,12 @@
+{
+  "name": "question-bank-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "题库管理系统课程设计项目",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check server.mjs",
+    "test:smoke": "node smoke-test.mjs"
+  }
+}
